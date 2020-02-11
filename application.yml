@@ -8,10 +8,10 @@ spring:
   profiles:
     active: dev
     aplication:
-      name: microservicecloud-dev
+      name: microservicecloud-config-dev
 ---
 spring:
   profiles:
     active: test
     aplication:
-      name: microservicecloud-test
+      name: microservicecloud-config-test
